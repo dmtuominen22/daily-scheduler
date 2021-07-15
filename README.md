@@ -1,4 +1,4 @@
-# daily-scheduler
+# Daily Scheduler
 
 ## Purpose
 A website that offers people to add appointments for the day. 
