@@ -1,17 +1,19 @@
 // I need to add today date to the header
 
-var day = moment.unix(1318781876); //seconds
-var day = moment(1318781876406); //milliseconds
-
-// and then:
-
-console.log(day.format('dddd MMMM Do YYYY, h:mm:ss a'));
-
+var currentDay = moment().format("dddd, MMMM Do YYYY"); 
+var currentDayEL = $("#currentDay");
+    currentDayEL.text(currentDay);
 
 //assign save button to click listener 
 
+$(document).click(saveBtn);
 
+// localStorage.setItem('todolist',(list));
 
+// var hour8Store =  $("#hour8 .description").text;
+// localStorage.setItem("hour8", hour8Store);
+
+localStorage.content = $('#hour8').html('description');
 
 //set items to local storage
 
