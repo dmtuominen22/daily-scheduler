@@ -85,16 +85,32 @@ $("#desc16").val(desc16);
 var desc17 = localStorage.getItem("hour17");
 $("#desc17").val(desc9);
 
-//get current number of hours - form moment.js
-
-
+//get current time of day
+var currentHour = moment().hour();
 
 //create a loop over the block of time
+$(".time-block").each(function (){
+    var blockHour = $("#hour8").val();
+    console.log(blockHour, currentHour)
+
+        if (blockHour < currentHour){
+            $(this).addClass("past");
+            $(this).removeClass("future");
+            $(this).removeClass("present");
+        }
+        else if (blockHour === currentHour){
+            $(this).removeClass("past");
+            $(this).addClass("present");
+            $(this).removeClass("future");
+        }
+        else {
+            $(this).removeClass("present");
+            $(this).removeClass("past");
+            $(this).addClass("future"); 
+        }
+    });
 
 
-
-
-//check time, if we are  past the time, during the time, and in the future, use class created in CSS .past .present .future
 
 
 
