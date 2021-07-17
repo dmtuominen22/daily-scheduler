@@ -1,33 +1,35 @@
 // I need to add today date to the header
-var currentDay = moment().format("dddd, MMMM Do YYYY"); 
+var currentDay = moment().format("dddd, MMMM Do YYYY, h:mm a"); 
 var currentDayEL = $("#currentDay");
     currentDayEL.text(currentDay);
 
-//assign save button to click listener 
-// $("#saveBtn").on("click", function (){
-//    var text = $(this)=".description")
-// };
+//assign save button to click listener  and save
+ $("#btn8").on("click", function (){
+     var text8 = $(".description").val();
 
-// localStorage.setItem('todolist',(list));
+     localStorage.setItem("hour8", text8);
+ });
 
-//  var hour8Store =  $("#hour8 .description").text;
-//  localStorage.setItem("hour8", hour8Store);
+ $("#btn9").on("click", function (){
+    var text9 = $(".description").val();
 
- localStorage.content = $('#hour8').html('description');
+    localStorage.setItem("hour9", text9);
+});
 
-//set items to local storage
-
-
-
-
-
+ 
 //load any saved data to local storage
 
+var desc8 = localStorage.getItem("hour8");
+$("#desc8").val(desc8);
+
+var desc9 = localStorage.getItem("hour9");
+$("#desc9").val(desc9);
 
 
 
 //get current number of hours - form moment.js
-var currenthour = moment().hour();
+
+
 
 //create a loop over the block of time
 
