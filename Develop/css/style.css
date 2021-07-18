@@ -15,7 +15,10 @@ textarea{
 
 .jumbotron {
   text-align: center;
-  background-color: transparent;
+  background-size: cover;
+  background-attachment: fixed; 
+  background-image: url("/Develop/image/river-and-ramp.jpg");
+  background-color: transparent; 
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;

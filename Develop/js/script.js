@@ -94,9 +94,7 @@ var currentHour = moment().hour();
     blockHour = blockHour.substring(4, blockHour.length);
     blockHour = parseInt(blockHour);
 
-    console.log("blockHour: " + blockHour + ", currentHour: " + currentHour);
-
-    if (blockHour < currentHour) {
+       if (blockHour < currentHour) {
         $(this).addClass("past");
         $(this).removeClass("future");
         $(this).removeClass("present");
