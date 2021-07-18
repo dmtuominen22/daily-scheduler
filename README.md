@@ -23,7 +23,6 @@ https://github.com/dmtuominen22/daily-scheduler
 ## Contribution
 Made by Denise Tuominen
 
-![image](https://user-images.githubusercontent.com/84994258/126082375-33a9e8fa-4bba-4ee2-9107-4b527d49656a.png)
-
+![image](https://user-images.githubusercontent.com/84994258/126083491-781839e8-d8ec-4438-aa51-0a5dd5c2738e.png)
 
 ### ©️2021 
