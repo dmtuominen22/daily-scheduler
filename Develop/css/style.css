@@ -72,36 +72,3 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
-
-/* Use  media query  */
-/* @media (max-width: 980px) {
-  #container {
-    font-size: 18px;
-    margin: 16px 15px 15px 15px;
-    padding: 10px 15px;
-  }
-}
-
- @media (max-width: 850px) {
-  #container {
-    font-size: 18px;
-    margin: 10px 10px 10px 10px;
-    padding: 10px 10px;
-    width:fit-content
-  }
-}
-
-  @media (max-width: 755px) {
-  #container {
-    font-size: 18px;
-    margin: 16px 15px 15px 15px;
-    padding: 10px 15px;
-  }
- } 
- @media (max-width: 475px) {
-  #container {
-    font-size: 18px;
-    margin: 16px 15px 15px 15px;
-    padding: 10px 15px;
-  }
- }  */
